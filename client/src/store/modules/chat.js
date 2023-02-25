@@ -34,7 +34,7 @@ const mutations ={
         // 过滤掉"号
         let str = answer.replace(/\"/g, '') 
         str = str.replace(/\\n/g,'\n ')  //将无效的换行符替换成有效换行符(\n后面加空格)
-        str = str.replace(/^\+/,'')
+        str = str.replace(/^\+/,'')     //替换开头的+号
         str = str.replace(/\+ \\n/g,'\n ') //将文中的+号连接替换掉成正常换行
         str = str.trim()  //去除头尾的换行符
         let data = {
