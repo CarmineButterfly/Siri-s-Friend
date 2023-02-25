@@ -1,24 +1,32 @@
-# client
+# Running test-davinchi-003(WEB) locally
+
+## First of all
+
+- Make sure you have node.js installed on your own computer
+- Node.js website : https://nodejs.org/
+- Make sure you have configured the server in `../server`
 
 ## Project setup
+
+- Operate in the terminal
+
 ```
+cd ./client
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Run Siri's Frined
+
+- Operate in the terminal
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+**or**
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Operate in the brower by URL
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+http://localhost:8080/
+```

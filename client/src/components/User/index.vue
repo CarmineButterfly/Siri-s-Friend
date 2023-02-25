@@ -2,8 +2,9 @@
     <div class="user-container">
         <el-row :gutter="10">
             <el-col :span="21">
-                <el-input ref="input" v-model="question" type="textarea" :rows="2" placeholder=" Hi! Say something to Codex"
-                    class="user-textarea" clearable @keyup.native.enter="asking" :disabled="notAllowAsk"></el-input>
+                <el-input ref="input" v-model="question" type="textarea" :rows="2"
+                    placeholder=" Hi! Say something to Siri's Friend" class="user-textarea" clearable
+                    @keyup.native.enter="asking" :disabled="notAllowAsk"></el-input>
             </el-col>
             <el-col :span="3" class="btn-col">
                 <el-button type="primary" class="btn" @click="asking">
